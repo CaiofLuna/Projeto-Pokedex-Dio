@@ -4,7 +4,23 @@
 }
 
 body {
+margin: 0;
 background-color: rgb(32, 32, 32);
+}
+
+header, footer {
+  padding: 0;
+  background-color: #ff000d;
+}
+
+header{
+  margin-bottom: 20px;
+  border-bottom: 4px solid white;
+}
+
+footer{
+  margin-top: 20px;
+  border-top: 4px solid white;
 }
 
 .content {
@@ -13,6 +29,8 @@ background-color: rgb(32, 32, 32);
   height: auto;
   border-radius: 30px;
   margin: auto;
+  border: 3px solid white;
+  box-shadow: 4px 4px #dddddd40;
 }
 
 @media screen and (min-width: 992px) {
